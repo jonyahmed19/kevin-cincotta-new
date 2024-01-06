@@ -146,6 +146,10 @@ const router = createBrowserRouter([
         element: <Portfolio />,
       },
       {
+        path: "/gestures",
+        element: <GesturesSeries />,
+      },
+      {
         path: "/gestures/watching-you-watching-us",
         element: <Reflection />,
       },

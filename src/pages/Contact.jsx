@@ -1,5 +1,5 @@
 // import React from "react";
-// import Page from "../components/Page.jsx";
+// import Page from "../components/Page.jsx
 import "../styles.css";
 import ContactInfo from "../components/ContactInfo.jsx";
 import H1 from "../components/H1.jsx";
