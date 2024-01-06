@@ -31,6 +31,8 @@ function GesturesSeries(props) {
   const handleClick = (event, photo, index) =>
     navigate(gesturesImages[index].page);
 
+    console.log('gesturesImages', gesturesImages)
+
   return (
     <Series
       isNamedSeries={true}

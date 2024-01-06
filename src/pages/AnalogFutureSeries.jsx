@@ -1,4 +1,3 @@
-import React from "react";
 import Series from "../components/Series.jsx";
 import { analogFutureImages } from "../ImageGallery/images";
 

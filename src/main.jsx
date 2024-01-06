@@ -61,6 +61,8 @@ import Skis from "./pages/apres-ski/Skis";
 import Trees3 from "./pages/apres-ski/Trees";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
+import Checkout from "./pages/Checkout.jsx";
+import GesturesSeries from "./pages/GesturesSeries.jsx";
 // import routes from "./routes/routes.jsx";
 
 
@@ -83,10 +85,10 @@ const router = createBrowserRouter([
         path: "/events",
         element: <Events />,
       },
-      //   {
-      //     path: "/checkout/:nickname/:format",
-      //     element: <Checkout />,
-      //   },
+      {
+        path: "/checkout/:nickname/:format",
+        element: <Checkout />,
+      },
       {
         path: "/shop",
         element: <Shop />,
@@ -142,6 +144,10 @@ const router = createBrowserRouter([
       {
         path: "/portfolio",
         element: <Portfolio />,
+      },
+      {
+        path: "/gestures",
+        element: <GesturesSeries />,
       },
       {
         path: "/gestures/watching-you-watching-us",
