@@ -1033,3 +1033,9 @@ ul.linkList {
   padding: .5rem 1rem;
   margin-bottom: .5rem;
 }
+
+
+body{
+  display: block!important;
+  width: 100%;
+}

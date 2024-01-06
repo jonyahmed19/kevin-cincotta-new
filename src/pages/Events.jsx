@@ -1,14 +1,11 @@
-import React from "react";
-//import { Link } from "@reach/router";
-import Page from "../components/Page.jsx";
+
 import EventImages from "../components/EventImages.jsx";
 import H1 from "../components/H1.jsx";
-import "../styles.css";
 // import { Link } from "@reach/router";
 // const flyer = require("../images/West+Main.jpg");
 
 // const featuredimage = require("../images/social/ILA-Mural.jpg");
-const Events = (props) => (
+const Events = () => (
   <div>
     <div>
       <H1>Events</H1>

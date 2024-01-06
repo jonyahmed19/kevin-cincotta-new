@@ -1,11 +1,10 @@
-import Page from "../components/Page.jsx";
 import ContactInfo from "../components/ContactInfo.jsx";
-import ExampleImages from "../components/ExampleImages.jsx";
 import YoutubeEmbed from "../components/YoutubeEmbed.jsx";
 import H1 from "../components/H1.jsx";
 import { Link } from "react-router-dom";
 import clementinePark from "../images/examples/ClementinePark.jpg";
 import whyNotRoam from "../images/examples/WhyNotRoam.jpg";
+import ExampleImages from "../components/ExampleImages.jsx";
 const Recentmages = () => {
   return (
     <div className="flexImages">
@@ -41,7 +40,7 @@ const Commissions = () => (
           <li>
             “Clementine Park” &mdash; celebrating a big wedding anniversary
           </li>
-          <li>"Why Not Roam" &mdash; capturing the freedom of van life.</li>
+          <li>{'"Why Not Roam"'} &mdash; capturing the freedom of van life.</li>
         </ul>
         <Recentmages />
         <p>
@@ -54,13 +53,13 @@ const Commissions = () => (
         <p>
           &nbsp;
           <br />
-          I've also created a couple animated videos.
+           {'I\'ve'} also created a couple animated videos.
         </p>
         <YoutubeEmbed embedId="AHWa1sXkUF8" />
       </div>
     </div>
     <p className="contact">
-      Please reach out if you'd like me to create something for you.
+      Please reach out if  {'you\'d'} like me to create something for you.
     </p>
     <footer className="main">
       <ContactInfo />
