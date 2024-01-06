@@ -23,7 +23,6 @@ import LargePrints from "./pages/LargePrints";
 import CanvasPrints from "./pages/CanvasPrints";
 import Favorites from "./pages/Favorites";
 import Portfolio from "./pages/portfolio";
-import GesturesSeries from "./pages/GesturesSeries";
 import Reflection from "./pages/gestures/Reflection";
 import Bees from "./pages/gestures/Bees";
 import TreeClimbing from "./pages/gestures/TreeClimbing";
@@ -62,7 +61,6 @@ import Skis from "./pages/apres-ski/Skis";
 import Trees3 from "./pages/apres-ski/Trees";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
-import Events from "./pages/Events.jsx";
 // import routes from "./routes/routes.jsx";
 
 
@@ -304,23 +302,6 @@ const router = createBrowserRouter([
       },
     ],
   },
-
-        element: <Layout />,
-        children: [
-            {
-                path: "/",
-                element: <Home />,
-            },
-            {
-                path: "/about",
-                element: <About />,
-            },
-            {
-                path: "/events",
-                element: <Events />,
-            },
-        ],
-    },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
