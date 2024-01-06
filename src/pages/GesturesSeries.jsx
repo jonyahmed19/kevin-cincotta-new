@@ -28,10 +28,14 @@ const header = () => (
 function GesturesSeries(props) {
   const navigate = useNavigate(); // Call useNavigate to get the navigate function
 
-  const handleClick = (event, photo, index) =>
-    navigate(gesturesImages[index].page);
+  const handleClick = (event, photo, index) => {
 
-    console.log('gesturesImages', gesturesImages)
+      console.log('index', index)
+  }
+
+    // const handleClick = ()=> console.log('hello')
+
+    console.log(props);
 
   return (
     <Series
