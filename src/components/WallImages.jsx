@@ -1,7 +1,7 @@
-import React from "react";
-
+import image from "../images/blur_edges.jpg"
+;
 const WallImages = () => {
-  const image = require("../images/blur_edges.jpg");
+
 
   return <div className="flexImages">
     <img key="wallImage" className="blurEdge" src={image} alt=""/>
