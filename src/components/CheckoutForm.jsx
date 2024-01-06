@@ -122,8 +122,8 @@ export default function CheckoutForm({
     e.preventDefault();
     setLoadingStripe(true);
     document.body.style.cursor = "wait";
-    console.log("CHECKOUT", process.env.REACT_APP_CHECKOUT_URL);
-    fetch(process.env.REACT_APP_CHECKOUT_URL, {
+    console.log("CHECKOUT", import.meta.env.REACT_APP_CHECKOUT_URL);
+    fetch(import.meta.env.REACT_APP_CHECKOUT_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),

@@ -327,10 +327,11 @@ function CanvasPrint(painting, desiredWidth) {
 }
 
 function compareNicknameOrCaption(text, work) {
-    const nickname = text.toLocaleLowerCase()
-    const caption = nickname.replace(/[ ]/g, "-")
-    return nickname === work.nickname.toLocaleLowerCase()
-      || caption === work.caption.toLocaleLowerCase().replace(/[ ]/g, "-")
+
+    const nickname = text?.toLocaleLowerCase()
+    const caption = nickname?.replace(/[ ]/g, "-")
+    return nickname === work.nickname?.toLocaleLowerCase()
+      || caption === work.caption?.toLocaleLowerCase().replace(/[ ]/g, "-")
 }
 function Find(nickname) {
     return Works.find(element => compareNicknameOrCaption(nickname, element))

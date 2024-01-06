@@ -12,34 +12,37 @@ import {
 import StyledSlider from "../components/StyledSlider.jsx";
 import H1 from "../components/H1.jsx";
 import Heart from "../components/Heart.jsx";
-import {Link} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import {useState} from "react";
 
 function clean(price) {
   return Number(price.replace("$", "").replace(",", ""));
 }
 
-function Checkout(props) {
-  const painting = Find(props.nickname);
+function Checkout() {
+
+  const {nickname, format} = useParams();
+
+  const painting = Find(nickname);
   const [width, setWidth] = useState(0);
-  const isCanvas = !!Number(props?.format);
+  const isCanvas = !!Number(format);
   const canvas = isCanvas
-    ? CanvasPrint(painting, width ? width : props.format)
+    ? CanvasPrint(painting, width ? width : format)
     : null;
   if (canvas && canvas.width !== width) {
     setWidth(canvas.width);
   }
   if (!painting) return <Error />;
-  const { caption, price } = GetInfo(painting, props.format);
+  const { caption, price } = GetInfo(painting, format);
   if (!caption || !price) return <Error />;
 
   // We need this to return properly from canceling out of Stripe
   const cancelUrl =
     window.location.origin +
     "/checkout/" +
-    props.nickname +
+    nickname +
     "/" +
-    (canvas ? canvas.width : props.format);
+    (canvas ? canvas.width : format);
   window.history.replaceState(
     null,
     canvas ? canvas.caption : caption,
@@ -49,9 +52,9 @@ function Checkout(props) {
   const getCaption = (work) =>
     work.caption.toLocaleLowerCase().replace(/[ ]/g, "-");
   const prevWork =
-    "/checkout/" + getCaption(FindPrev(props.nickname)) + "/" + props.format;
+    "/checkout/" + getCaption(FindPrev(nickname)) + "/" + format;
   const nextWork =
-    "/checkout/" + getCaption(FindNext(props.nickname)) + "/" + props.format;
+    "/checkout/" + getCaption(FindNext(nickname)) + "/" + format;
 
   const Purchase = () =>
     price === "SOLD" ? (
@@ -62,13 +65,13 @@ function Checkout(props) {
         painting={painting}
         product={canvas ? canvas.caption : caption}
         price={clean(canvas ? canvas.price : price)}
-        format={props.format}
+        format={format}
         cancelUrl={cancelUrl}
       />
     );
 
   return (
-    <Page {...props}>
+
       <div className="checkout">
         <div className="browse">
           <Link to={prevWork}>
@@ -113,7 +116,7 @@ function Checkout(props) {
           </p>
         </footer>
       </div>
-    </Page>
+
   );
 }
 export default Checkout;

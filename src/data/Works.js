@@ -1,9 +1,67 @@
+import image1 from "../images/paintings/Beachball.jpg";
+import image2 from "../images/paintingsPlus/Beachball.jpg";
+import image3 from "../images/apresski/Bears.jpg";
+import img4 from "../images/apresski/Bears.jpg";
+import img5 from "../images/apresski/DualSkiers.jpg";
+import img6 from "../images/apresski/DualSkiers.jpg";
+import img7 from "../images/apresski/Sheep.jpg";
+import img8 from "../images/apresski/Skier1.jpg";
+import img9 from "../images/apresski/Trees.jpg";
+import img10 from "../images/apresski/Skier3.jpg";
+import img11 from "../images/apresski/Skis.jpg";
+import img12 from "../images/apresski/Skier2.jpg";
+import img13 from "../images/af/Crocodile.jpg";
+import img14 from "../images/af/Map.jpg";
+import img15 from "../images/af/Canoe.jpg";
+import img16 from "../images/af/ParkBench.jpg";
+import img17 from "../images/af/Watermelon.jpg";
+import img18 from "../images/af/House.jpg";
+import img19 from "../images/paintings/Reflection.jpg";
+import img20 from "../images/paintingsPlus/Reflection.jpg";
+import img21 from "../images/paintings/Bees.jpg";
+import img22 from "../images/paintingsPlus/Bees.jpg";
+import img23 from "../images/paintings/TreeClimbing.jpg";
+import img24 from "../images/paintingsPlus/TreeClimbing.jpg";
+import img25 from "../images/paintings/SandDollar.jpg";
+import img26 from "../images/paintingsPlus/SandDollar.jpg";
+import img27 from "../images/paintings/Surfer.jpg";
+import img28 from "../images/paintingsPlus/Surfer.jpg";
+import img29 from "../images/paintings/Tent.jpg";
+import img30 from "../images/paintingsPlus/Tent.jpg";
+import img31 from "../images/paintings/Kite.jpg";
+import img32 from "../images/paintingsPlus/Kite.jpg";
+import img33 from "../images/paintings/Sunset.jpg";
+import img34 from "../images/paintingsPlus/Sunset.jpg";
+import img35 from "../images/paintings/Trees.jpg";
+import img36 from "../images/paintingsPlus/Trees.jpg";
+import img37 from "../images/paintings/Seagulls.jpg";
+import img38 from "../images/paintingsPlus/Seagulls.jpg";
+import img39 from "../images/paintings/Serenade.jpg";
+import img40 from "../images/paintingsPlus/Serenade.jpg";
+import img41 from "../images/paintings/Painter.jpg";
+import img42 from "../images/paintingsPlus/Painter.jpg";
+import img43 from "../images/paintings/Berries.jpg";
+import img44 from "../images/paintingsPlus/Berries.jpg";
+import img45 from "../images/paintings/CanyonLake.jpg";
+import img46 from "../images/paintingsPlus/CanyonLake.jpg";
+import img47 from "../images/paintings/Seashells.jpg";
+import img48 from "../images/paintingsPlus/Seashells.jpg";
+import img49 from "../images/paintings/Sailing.jpg";
+import img50 from "../images/paintingsPlus/Sailing.jpg";
+import img51 from "../images/paintings/Band.jpg";
+import img52 from "../images/paintingsPlus/Band.jpg";
+import img53 from "../images/paintings/Boardwalk.jpg";
+import img54 from "../images/paintingsPlus/Boardwalk.jpg";
+import img55 from "../images/paintings/Beach.jpg";
+import img56 from "../images/paintingsPlus/Beach.jpg";
+import img57 from "../images/examples/ClementinePark.jpg";
+import img58 from "../images/murals/Mural-Dateline.jpg";
+import img59 from "../images/murals/Mural-ILA.jpg";
+
 const Works = [
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/apresski/Bears.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/apresski/Bears.jpg"),
+    mosaic: image3,
+    lightbox: img4,
     caption: "Just Right",
     page: "/apres-ski/just-right",
     nickname: "Bears",
@@ -12,26 +70,22 @@ const Works = [
     price: "$500",
     sold: "3/4/2023 Pancakes and Booze",
     width: 2400,
-    height: 1920
+    height: 1920,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/apresski/DualSkiers.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/apresski/DualSkiers.jpg"),
+    mosaic: img5,
+    lightbox: img5,
     caption: "Flying Formation",
     page: "/apres-ski/flying-formation",
     nickname: "DualSkiers",
     size: "36x24",
     price: "$950",
     width: 3000,
-    height: 2000
+    height: 2000,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/apresski/Sheep.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/apresski/Sheep.jpg"),
+    mosaic: img7,
+    lightbox: img7,
     caption: "Mountaineers",
     page: "/apres-ski/mountaineers",
     nickname: "Sheep",
@@ -41,13 +95,11 @@ const Works = [
     price: "$750",
     sold: "RESERVED for raffle",
     width: 2000,
-    height: 3000
+    height: 3000,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/apresski/Skier1.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/apresski/Skier1.jpg"),
+    mosaic: img8,
+    lightbox: img8,
     caption: "Dawn Patrol",
     page: "/apres-ski/dawn-patrol",
     nickname: "Skier1",
@@ -55,13 +107,11 @@ const Works = [
     price: "$350",
     sold: "RESERVED for raffle",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/apresski/Trees.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/apresski/Trees.jpg"),
+    mosaic: img9,
+    lightbox: img9,
     caption: "Three Snowy Trees",
     page: "/apres-ski/three-snowy-trees",
     nickname: "Trees3",
@@ -70,13 +120,11 @@ const Works = [
     price: "$750",
     sold: "3/4/2023 Pancakes and Booze",
     width: 2000,
-    height: 3000
+    height: 3000,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/apresski/Skier3.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/apresski/Skier3.jpg"),
+    mosaic: img10,
+    lightbox: img10,
     caption: "Couloir",
     page: "/apres-ski/couloir",
     nickname: "Skier3",
@@ -85,13 +133,11 @@ const Works = [
     price: "$600",
     sold: "RESERVED for raffle",
     width: 2251,
-    height: 3000
+    height: 3000,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/apresski/Skis.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/apresski/Skis.jpg"),
+    mosaic: img11,
+    lightbox: img11,
     caption: "Skiing in Style",
     page: "/apres-ski/skiing-in-style",
     nickname: "Skis",
@@ -99,53 +145,45 @@ const Works = [
     price: "$450",
     sold: "12/15/22 Oliver Reed",
     width: 1920,
-    height: 2400
+    height: 2400,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/apresski/Skier2.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/apresski/Skier2.jpg"),
+    mosaic: img12,
+    lightbox: img12,
     caption: "Art of the Turn",
     page: "/apres-ski/art-of-the-turn",
     nickname: "Skier2",
     size: "24x18",
     price: "$600",
     width: 3000,
-    height: 2250
+    height: 2250,
   },
 
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/af/Crocodile.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/af/Crocodile.jpg"),
+    mosaic: img13,
+    lightbox: img13,
     caption: "Road to Nowhere",
     page: "/analog-future/road-to-nowhere",
     nickname: "Crocodile",
     size: "16x12",
     price: "$400",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/af/Map.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/af/Map.jpg"),
+    mosaic: img14,
+    lightbox: img14,
     caption: "X Marks the Spot",
     page: "/analog-future/x-marks-the-spot",
     nickname: "Map",
     size: "16x12",
     price: "$350",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/af/Canoe.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/af/Canoe.jpg"),
+    mosaic: img15,
+    lightbox: img15,
     caption: "Hill in the Middle of a Lake",
     page: "/analog-future/hill-in-the-middle-of-a-lake",
     nickname: "Canoe",
@@ -154,13 +192,11 @@ const Works = [
     price: "$400",
     sold: "Add details later",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/af/ParkBench.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/af/ParkBench.jpg"),
+    mosaic: img16,
+    lightbox: img16,
     caption: "Listening to the Birds",
     page: "/analog-future/listening-to-the-birds",
     nickname: "ParkBench",
@@ -168,13 +204,11 @@ const Works = [
     size: "18x24",
     price: "$550",
     width: 1800,
-    height: 2400
+    height: 2400,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/af/Watermelon.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/af/Watermelon.jpg"),
+    mosaic: img17,
+    lightbox: img17,
     caption: "Summer Haul",
     page: "/analog-future/summer-haul",
     nickname: "Watermelon",
@@ -182,13 +216,11 @@ const Works = [
     size: "18x24",
     price: "$600",
     width: 1800,
-    height: 2400
+    height: 2400,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/af/House.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/af/House.jpg"),
+    mosaic: img18,
+    lightbox: img18,
     caption: "Home at Last",
     page: "/analog-future/home-at-last",
     nickname: "House",
@@ -197,14 +229,12 @@ const Works = [
     price: "$950",
     sold: "Add details later",
     width: 1800,
-    height: 2700
+    height: 2700,
   },
 
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Reflection.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Reflection.jpg"),
+    mosaic: img19,
+    lightbox: img19,
     caption: "Watching You, Watching Us",
     page: "/gestures/watching-you-watching-us",
     nickname: "Reflection",
@@ -212,13 +242,11 @@ const Works = [
     price: "$250",
     sold: "Add details later",
     width: 1000,
-    height: 1600
+    height: 1600,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Bees.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Bees.jpg"),
+    mosaic: img21,
+    lightbox: img22,
     caption: "Pollinators",
     page: "/gestures/pollinators",
     nickname: "Bees",
@@ -226,13 +254,11 @@ const Works = [
     price: "$250",
     sold: "4/1/22 at M+W opening",
     width: 1500,
-    height: 2400
+    height: 2400,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/TreeClimbing.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/TreeClimbing.jpg"),
+    mosaic: img23,
+    lightbox: img24,
     caption: "Climbing a Tree",
     page: "/gestures/climbing-a-tree",
     nickname: "TreeClimbing",
@@ -240,13 +266,11 @@ const Works = [
     price: "$250",
     sold: "6/9/22 to Leo",
     width: 1000,
-    height: 1600
+    height: 1600,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/SandDollar.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/SandDollar.jpg"),
+    mosaic: img25,
+    lightbox: img26,
     caption: "I Sent You a Postcard",
     page: "/gestures/i-sent-you-a-postcard",
     nickname: "SandDollar",
@@ -254,39 +278,33 @@ const Works = [
     price: "$250",
     sold: "9/7/2022 Kevin keeping it",
     width: 2400,
-    height: 1500
+    height: 1500,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Surfer.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Surfer.jpg"),
+    mosaic: img27,
+    lightbox: img28,
     caption: "Big Swell",
     page: "/gestures/big-swell",
     nickname: "Surfer",
     size: "12x8",
     price: "$250",
     width: 2400,
-    height: 1500
+    height: 1500,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Beachball.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Beachball.jpg"),
+    mosaic: image1,
+    lightbox: image2,
     caption: "Beachball",
     page: "/gestures/beachball",
     nickname: "Beachball",
     size: "12x8",
     price: "$250",
     width: 1600,
-    height: 1000
+    height: 1000,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Tent.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Tent.jpg"),
+    mosaic: img29,
+    lightbox: img30,
     caption: "4:30 am on Mt. Shasta",
     page: "/gestures/430am-on-mt-shasta",
     nickname: "Tent",
@@ -295,26 +313,22 @@ const Works = [
     price: "$300",
     sold: "4/1/22 at M+W opening to Dylan",
     width: 1600,
-    height: 1600
+    height: 1600,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Kite.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Kite.jpg"),
+    mosaic: img31,
+    lightbox: img32,
     caption: "Fly My Kite",
     page: "/gestures/fly-my-kite",
     nickname: "Kite",
     size: "12x12",
     price: "$300",
     width: 1600,
-    height: 1600
+    height: 1600,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Sunset.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Sunset.jpg"),
+    mosaic: img33,
+    lightbox: img34,
     caption: "Slow Down, Sunset",
     page: "/gestures/slow-down-sunset",
     nickname: "Sunset",
@@ -323,13 +337,11 @@ const Works = [
     price: "$300",
     sold: "5/14/22 to Mary Murbach",
     width: 1600,
-    height: 1600
+    height: 1600,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Trees.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Trees.jpg"),
+    mosaic: img35,
+    lightbox: img36,
     caption: "Four Very Tall Trees",
     page: "/gestures/four-very-tall-trees",
     nickname: "Trees",
@@ -338,13 +350,11 @@ const Works = [
     price: "$600",
     sold: "4/1/22 at M+W opening",
     width: 1800,
-    height: 2400
+    height: 2400,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Seagulls.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Seagulls.jpg"),
+    mosaic: img37,
+    lightbox: img38,
     caption: "A Seagull's Topography",
     page: "/gestures/a-seagulls-topography",
     nickname: "Seagulls",
@@ -353,13 +363,11 @@ const Works = [
     price: "$600",
     sold: "4/1/22 at M+W opening",
     width: 1800,
-    height: 2400
+    height: 2400,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Serenade.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Serenade.jpg"),
+    mosaic: img39,
+    lightbox: img40,
     caption: "Serenade",
     page: "/gestures/serenade",
     nickname: "Serenade",
@@ -368,13 +376,11 @@ const Works = [
     price: "$500",
     sold: "4/23/22 at Pancakes & Booze",
     width: 1800,
-    height: 2400
+    height: 2400,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Painter.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Painter.jpg"),
+    mosaic: img41,
+    lightbox: img42,
     caption: "Cliffside Self Portrait",
     page: "/gestures/cliffside-self-portrait",
     nickname: "Painter",
@@ -383,26 +389,22 @@ const Works = [
     price: "$600",
     sold: "Mom and Dad want this one!",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Berries.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Berries.jpg"),
+    mosaic: img43,
+    lightbox: img44,
     caption: "Forest Food",
     page: "/gestures/forest-food",
     nickname: "Berries",
     size: "24x18",
     price: "$550",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/CanyonLake.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/CanyonLake.jpg"),
+    mosaic: img45,
+    lightbox: img46,
     caption: "Cliff Divers",
     page: "/gestures/cliff-divers",
     nickname: "CanyonLake",
@@ -411,13 +413,11 @@ const Works = [
     price: "$500",
     sold: "6/9/22 to Yarrow Henrickson (friend of Leo)",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Seashells.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Seashells.jpg"),
+    mosaic: img47,
+    lightbox: img48,
     caption: "Still Life in the Sand",
     page: "/gestures/still-life-in-the-sand",
     nickname: "Seashells",
@@ -425,13 +425,11 @@ const Works = [
     price: "$500",
     sold: "5/14/22 to Ryan Synk",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Sailing.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Sailing.jpg"),
+    mosaic: img49,
+    lightbox: img50,
     caption: "We'll Be Waiting by the Lighthouse",
     page: "/gestures/well-be-waiting-by-the-lighthouse",
     nickname: "Sailing",
@@ -440,13 +438,11 @@ const Works = [
     price: "$550",
     sold: "6/11/22 RiNo Showcase",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Band.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Band.jpg"),
+    mosaic: img51,
+    lightbox: img52,
     caption: "The Beach People",
     page: "/gestures/the-beach-people",
     nickname: "Band",
@@ -454,13 +450,11 @@ const Works = [
     size: "24x36",
     price: "$950",
     width: 1600,
-    height: 2400
+    height: 2400,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Boardwalk.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Boardwalk.jpg"),
+    mosaic: img53,
+    lightbox: img54,
     caption: "Hustle and Bustle",
     page: "/gestures/hustle-and-bustle",
     nickname: "Boardwalk",
@@ -468,13 +462,11 @@ const Works = [
     size: "36x24",
     price: "$950",
     width: 2400,
-    height: 1600
+    height: 1600,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/paintings/Beach.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/paintingsPlus/Beach.jpg"),
+    mosaic: img55,
+    lightbox: img56,
     caption: "Learning to Surf",
     page: "/gestures/learning-to-surf",
     nickname: "Beach",
@@ -482,14 +474,12 @@ const Works = [
     size: "36x24",
     price: "$950",
     width: 2400,
-    height: 1600
+    height: 1600,
   },
 
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/examples/ClementinePark.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/examples/ClementinePark.jpg"),
+    mosaic: img57,
+    lightbox: img57,
     caption: "Clementine Park",
     page: "/commissions/",
     nickname: "Commission1",
@@ -499,13 +489,11 @@ const Works = [
     portfolio: 205,
     noprints: true,
     width: 716,
-    height: 1081
+    height: 1081,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/murals/Mural-Dateline.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/murals/Mural-Dateline.jpg"),
+    mosaic: img58,
+    lightbox: img58,
     caption: "Mural outside Dateline Gallery",
     page: "/murals/",
     nickname: "MuralDateline",
@@ -516,13 +504,11 @@ const Works = [
     portfolio: 101,
     noprints: true,
     width: 3673,
-    height: 2755
+    height: 2755,
   },
   {
-    // eslint-disable-next-line no-undef
-    mosaic: require("../images/murals/Mural-ILA.jpg"),
-    // eslint-disable-next-line no-undef
-    lightbox: require("../images/murals/Mural-ILA.jpg"),
+    mosaic: img59,
+    lightbox: img59,
     caption: "Mural inside ILA Gallery",
     page: "/murals/",
     nickname: "MuralILA",
@@ -533,8 +519,8 @@ const Works = [
     portfolio: 102,
     noprints: true,
     width: 2821,
-    height: 2839
-  }
+    height: 2839,
+  },
 ];
 
 export default Works;

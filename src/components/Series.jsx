@@ -70,7 +70,7 @@ function Series(props) {
           {...props}
           images={props.images}
           handleClick={(event, photo, index) => {
-            navigate(props?.images[index]?.page);
+            navigate(props?.images[event.index]?.page);
           }}
           series={props?.series}
         />
