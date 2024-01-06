@@ -6,6 +6,7 @@ import "./styles.css";
 import Layout from "./components/Layout.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
+
 // import Checkout from "./pages/Checkout";
 import Events from "./pages/Events";
 import Shop from "./pages/Shop";
@@ -61,6 +62,10 @@ import Skis from "./pages/apres-ski/Skis";
 import Trees3 from "./pages/apres-ski/Trees";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
+import Events from "./pages/Events.jsx";
+// import routes from "./routes/routes.jsx";
+
+
 
 const router = createBrowserRouter([
   {
@@ -69,6 +74,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
+
         element: <Home />,
       },
       {
@@ -298,6 +304,23 @@ const router = createBrowserRouter([
       },
     ],
   },
+
+        element: <Layout />,
+        children: [
+            {
+                path: "/",
+                element: <Home />,
+            },
+            {
+                path: "/about",
+                element: <About />,
+            },
+            {
+                path: "/events",
+                element: <Events />,
+            },
+        ],
+    },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
