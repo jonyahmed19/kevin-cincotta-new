@@ -1,7 +1,7 @@
 const Works = [
   {
-    mosaic: require("../images/apresski/Bears.jpg"),
-    lightbox: require("../images/apresski/Bears.jpg"),
+    mosaic: import("../images/apresski/Bears.jpg"),
+    lightbox: import("../images/apresski/Bears.jpg"),
     caption: "Just Right",
     page: "/apres-ski/just-right",
     nickname: "Bears",
@@ -10,22 +10,22 @@ const Works = [
     price: "$500",
     sold: "3/4/2023 Pancakes and Booze",
     width: 2400,
-    height: 1920
+    height: 1920,
   },
   {
-    mosaic: require("../images/apresski/DualSkiers.jpg"),
-    lightbox: require("../images/apresski/DualSkiers.jpg"),
+    mosaic: import("../images/apresski/DualSkiers.jpg"),
+    lightbox: import("../images/apresski/DualSkiers.jpg"),
     caption: "Flying Formation",
     page: "/apres-ski/flying-formation",
     nickname: "DualSkiers",
     size: "36x24",
     price: "$950",
     width: 3000,
-    height: 2000
+    height: 2000,
   },
   {
-    mosaic: require("../images/apresski/Sheep.jpg"),
-    lightbox: require("../images/apresski/Sheep.jpg"),
+    mosaic: import("../images/apresski/Sheep.jpg"),
+    lightbox: import("../images/apresski/Sheep.jpg"),
     caption: "Mountaineers",
     page: "/apres-ski/mountaineers",
     nickname: "Sheep",
@@ -35,11 +35,11 @@ const Works = [
     price: "$750",
     sold: "RESERVED for raffle",
     width: 2000,
-    height: 3000
+    height: 3000,
   },
   {
-    mosaic: require("../images/apresski/Skier1.jpg"),
-    lightbox: require("../images/apresski/Skier1.jpg"),
+    mosaic: import("../images/apresski/Skier1.jpg"),
+    lightbox: import("../images/apresski/Skier1.jpg"),
     caption: "Dawn Patrol",
     page: "/apres-ski/dawn-patrol",
     nickname: "Skier1",
@@ -47,11 +47,11 @@ const Works = [
     price: "$350",
     sold: "RESERVED for raffle",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    mosaic: require("../images/apresski/Trees.jpg"),
-    lightbox: require("../images/apresski/Trees.jpg"),
+    mosaic: import("../images/apresski/Trees.jpg"),
+    lightbox: import("../images/apresski/Trees.jpg"),
     caption: "Three Snowy Trees",
     page: "/apres-ski/three-snowy-trees",
     nickname: "Trees3",
@@ -60,11 +60,11 @@ const Works = [
     price: "$750",
     sold: "3/4/2023 Pancakes and Booze",
     width: 2000,
-    height: 3000
+    height: 3000,
   },
   {
-    mosaic: require("../images/apresski/Skier3.jpg"),
-    lightbox: require("../images/apresski/Skier3.jpg"),
+    mosaic: import("../images/apresski/Skier3.jpg"),
+    lightbox: import("../images/apresski/Skier3.jpg"),
     caption: "Couloir",
     page: "/apres-ski/couloir",
     nickname: "Skier3",
@@ -73,11 +73,11 @@ const Works = [
     price: "$600",
     sold: "RESERVED for raffle",
     width: 2251,
-    height: 3000
+    height: 3000,
   },
   {
-    mosaic: require("../images/apresski/Skis.jpg"),
-    lightbox: require("../images/apresski/Skis.jpg"),
+    mosaic: import("../images/apresski/Skis.jpg"),
+    lightbox: import("../images/apresski/Skis.jpg"),
     caption: "Skiing in Style",
     page: "/apres-ski/skiing-in-style",
     nickname: "Skis",
@@ -85,45 +85,45 @@ const Works = [
     price: "$450",
     sold: "12/15/22 Oliver Reed",
     width: 1920,
-    height: 2400
+    height: 2400,
   },
   {
-    mosaic: require("../images/apresski/Skier2.jpg"),
-    lightbox: require("../images/apresski/Skier2.jpg"),
+    mosaic: import("../images/apresski/Skier2.jpg"),
+    lightbox: import("../images/apresski/Skier2.jpg"),
     caption: "Art of the Turn",
     page: "/apres-ski/art-of-the-turn",
     nickname: "Skier2",
     size: "24x18",
     price: "$600",
     width: 3000,
-    height: 2250
+    height: 2250,
   },
 
   {
-    mosaic: require("../images/af/Crocodile.jpg"),
-    lightbox: require("../images/af/Crocodile.jpg"),
+    mosaic: import("../images/af/Crocodile.jpg"),
+    lightbox: import("../images/af/Crocodile.jpg"),
     caption: "Road to Nowhere",
     page: "/analog-future/road-to-nowhere",
     nickname: "Crocodile",
     size: "16x12",
     price: "$400",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    mosaic: require("../images/af/Map.jpg"),
-    lightbox: require("../images/af/Map.jpg"),
+    mosaic: import("../images/af/Map.jpg"),
+    lightbox: import("../images/af/Map.jpg"),
     caption: "X Marks the Spot",
     page: "/analog-future/x-marks-the-spot",
     nickname: "Map",
     size: "16x12",
     price: "$350",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    mosaic: require("../images/af/Canoe.jpg"),
-    lightbox: require("../images/af/Canoe.jpg"),
+    mosaic: import("../images/af/Canoe.jpg"),
+    lightbox: import("../images/af/Canoe.jpg"),
     caption: "Hill in the Middle of a Lake",
     page: "/analog-future/hill-in-the-middle-of-a-lake",
     nickname: "Canoe",
@@ -132,11 +132,11 @@ const Works = [
     price: "$400",
     sold: "Add details later",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    mosaic: require("../images/af/ParkBench.jpg"),
-    lightbox: require("../images/af/ParkBench.jpg"),
+    mosaic: import("../images/af/ParkBench.jpg"),
+    lightbox: import("../images/af/ParkBench.jpg"),
     caption: "Listening to the Birds",
     page: "/analog-future/listening-to-the-birds",
     nickname: "ParkBench",
@@ -144,11 +144,11 @@ const Works = [
     size: "18x24",
     price: "$550",
     width: 1800,
-    height: 2400
+    height: 2400,
   },
   {
-    mosaic: require("../images/af/Watermelon.jpg"),
-    lightbox: require("../images/af/Watermelon.jpg"),
+    mosaic: import("../images/af/Watermelon.jpg"),
+    lightbox: import("../images/af/Watermelon.jpg"),
     caption: "Summer Haul",
     page: "/analog-future/summer-haul",
     nickname: "Watermelon",
@@ -156,11 +156,11 @@ const Works = [
     size: "18x24",
     price: "$600",
     width: 1800,
-    height: 2400
+    height: 2400,
   },
   {
-    mosaic: require("../images/af/House.jpg"),
-    lightbox: require("../images/af/House.jpg"),
+    mosaic: import("../images/af/House.jpg"),
+    lightbox: import("../images/af/House.jpg"),
     caption: "Home at Last",
     page: "/analog-future/home-at-last",
     nickname: "House",
@@ -169,12 +169,12 @@ const Works = [
     price: "$950",
     sold: "Add details later",
     width: 1800,
-    height: 2700
+    height: 2700,
   },
 
   {
-    mosaic: require("../images/paintings/Reflection.jpg"),
-    lightbox: require("../images/paintingsPlus/Reflection.jpg"),
+    mosaic: import("../images/paintings/Reflection.jpg"),
+    lightbox: import("../images/paintingsPlus/Reflection.jpg"),
     caption: "Watching You, Watching Us",
     page: "/gestures/watching-you-watching-us",
     nickname: "Reflection",
@@ -182,11 +182,11 @@ const Works = [
     price: "$250",
     sold: "Add details later",
     width: 1000,
-    height: 1600
+    height: 1600,
   },
   {
-    mosaic: require("../images/paintings/Bees.jpg"),
-    lightbox: require("../images/paintingsPlus/Bees.jpg"),
+    mosaic: import("../images/paintings/Bees.jpg"),
+    lightbox: import("../images/paintingsPlus/Bees.jpg"),
     caption: "Pollinators",
     page: "/gestures/pollinators",
     nickname: "Bees",
@@ -194,11 +194,11 @@ const Works = [
     price: "$250",
     sold: "4/1/22 at M+W opening",
     width: 1500,
-    height: 2400
+    height: 2400,
   },
   {
-    mosaic: require("../images/paintings/TreeClimbing.jpg"),
-    lightbox: require("../images/paintingsPlus/TreeClimbing.jpg"),
+    mosaic: import("../images/paintings/TreeClimbing.jpg"),
+    lightbox: import("../images/paintingsPlus/TreeClimbing.jpg"),
     caption: "Climbing a Tree",
     page: "/gestures/climbing-a-tree",
     nickname: "TreeClimbing",
@@ -206,11 +206,11 @@ const Works = [
     price: "$250",
     sold: "6/9/22 to Leo",
     width: 1000,
-    height: 1600
+    height: 1600,
   },
   {
-    mosaic: require("../images/paintings/SandDollar.jpg"),
-    lightbox: require("../images/paintingsPlus/SandDollar.jpg"),
+    mosaic: import("../images/paintings/SandDollar.jpg"),
+    lightbox: import("../images/paintingsPlus/SandDollar.jpg"),
     caption: "I Sent You a Postcard",
     page: "/gestures/i-sent-you-a-postcard",
     nickname: "SandDollar",
@@ -218,33 +218,33 @@ const Works = [
     price: "$250",
     sold: "9/7/2022 Kevin keeping it",
     width: 2400,
-    height: 1500
+    height: 1500,
   },
   {
-    mosaic: require("../images/paintings/Surfer.jpg"),
-    lightbox: require("../images/paintingsPlus/Surfer.jpg"),
+    mosaic: import("../images/paintings/Surfer.jpg"),
+    lightbox: import("../images/paintingsPlus/Surfer.jpg"),
     caption: "Big Swell",
     page: "/gestures/big-swell",
     nickname: "Surfer",
     size: "12x8",
     price: "$250",
     width: 2400,
-    height: 1500
+    height: 1500,
   },
   {
-    mosaic: require("../images/paintings/Beachball.jpg"),
-    lightbox: require("../images/paintingsPlus/Beachball.jpg"),
+    mosaic: import("../images/paintings/Beachball.jpg"),
+    lightbox: import("../images/paintingsPlus/Beachball.jpg"),
     caption: "Beachball",
     page: "/gestures/beachball",
     nickname: "Beachball",
     size: "12x8",
     price: "$250",
     width: 1600,
-    height: 1000
+    height: 1000,
   },
   {
-    mosaic: require("../images/paintings/Tent.jpg"),
-    lightbox: require("../images/paintingsPlus/Tent.jpg"),
+    mosaic: import("../images/paintings/Tent.jpg"),
+    lightbox: import("../images/paintingsPlus/Tent.jpg"),
     caption: "4:30 am on Mt. Shasta",
     page: "/gestures/430am-on-mt-shasta",
     nickname: "Tent",
@@ -253,22 +253,22 @@ const Works = [
     price: "$300",
     sold: "4/1/22 at M+W opening to Dylan",
     width: 1600,
-    height: 1600
+    height: 1600,
   },
   {
-    mosaic: require("../images/paintings/Kite.jpg"),
-    lightbox: require("../images/paintingsPlus/Kite.jpg"),
+    mosaic: import("../images/paintings/Kite.jpg"),
+    lightbox: import("../images/paintingsPlus/Kite.jpg"),
     caption: "Fly My Kite",
     page: "/gestures/fly-my-kite",
     nickname: "Kite",
     size: "12x12",
     price: "$300",
     width: 1600,
-    height: 1600
+    height: 1600,
   },
   {
-    mosaic: require("../images/paintings/Sunset.jpg"),
-    lightbox: require("../images/paintingsPlus/Sunset.jpg"),
+    mosaic: import("../images/paintings/Sunset.jpg"),
+    lightbox: import("../images/paintingsPlus/Sunset.jpg"),
     caption: "Slow Down, Sunset",
     page: "/gestures/slow-down-sunset",
     nickname: "Sunset",
@@ -277,11 +277,11 @@ const Works = [
     price: "$300",
     sold: "5/14/22 to Mary Murbach",
     width: 1600,
-    height: 1600
+    height: 1600,
   },
   {
-    mosaic: require("../images/paintings/Trees.jpg"),
-    lightbox: require("../images/paintingsPlus/Trees.jpg"),
+    mosaic: import("../images/paintings/Trees.jpg"),
+    lightbox: import("../images/paintingsPlus/Trees.jpg"),
     caption: "Four Very Tall Trees",
     page: "/gestures/four-very-tall-trees",
     nickname: "Trees",
@@ -290,11 +290,11 @@ const Works = [
     price: "$600",
     sold: "4/1/22 at M+W opening",
     width: 1800,
-    height: 2400
+    height: 2400,
   },
   {
-    mosaic: require("../images/paintings/Seagulls.jpg"),
-    lightbox: require("../images/paintingsPlus/Seagulls.jpg"),
+    mosaic: import("../images/paintings/Seagulls.jpg"),
+    lightbox: import("../images/paintingsPlus/Seagulls.jpg"),
     caption: "A Seagull's Topography",
     page: "/gestures/a-seagulls-topography",
     nickname: "Seagulls",
@@ -303,11 +303,11 @@ const Works = [
     price: "$600",
     sold: "4/1/22 at M+W opening",
     width: 1800,
-    height: 2400
+    height: 2400,
   },
   {
-    mosaic: require("../images/paintings/Serenade.jpg"),
-    lightbox: require("../images/paintingsPlus/Serenade.jpg"),
+    mosaic: import("../images/paintings/Serenade.jpg"),
+    lightbox: import("../images/paintingsPlus/Serenade.jpg"),
     caption: "Serenade",
     page: "/gestures/serenade",
     nickname: "Serenade",
@@ -316,11 +316,11 @@ const Works = [
     price: "$500",
     sold: "4/23/22 at Pancakes & Booze",
     width: 1800,
-    height: 2400
+    height: 2400,
   },
   {
-    mosaic: require("../images/paintings/Painter.jpg"),
-    lightbox: require("../images/paintingsPlus/Painter.jpg"),
+    mosaic: import("../images/paintings/Painter.jpg"),
+    lightbox: import("../images/paintingsPlus/Painter.jpg"),
     caption: "Cliffside Self Portrait",
     page: "/gestures/cliffside-self-portrait",
     nickname: "Painter",
@@ -329,22 +329,22 @@ const Works = [
     price: "$600",
     sold: "Mom and Dad want this one!",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    mosaic: require("../images/paintings/Berries.jpg"),
-    lightbox: require("../images/paintingsPlus/Berries.jpg"),
+    mosaic: import("../images/paintings/Berries.jpg"),
+    lightbox: import("../images/paintingsPlus/Berries.jpg"),
     caption: "Forest Food",
     page: "/gestures/forest-food",
     nickname: "Berries",
     size: "24x18",
     price: "$550",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    mosaic: require("../images/paintings/CanyonLake.jpg"),
-    lightbox: require("../images/paintingsPlus/CanyonLake.jpg"),
+    mosaic: import("../images/paintings/CanyonLake.jpg"),
+    lightbox: import("../images/paintingsPlus/CanyonLake.jpg"),
     caption: "Cliff Divers",
     page: "/gestures/cliff-divers",
     nickname: "CanyonLake",
@@ -353,11 +353,11 @@ const Works = [
     price: "$500",
     sold: "6/9/22 to Yarrow Henrickson (friend of Leo)",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    mosaic: require("../images/paintings/Seashells.jpg"),
-    lightbox: require("../images/paintingsPlus/Seashells.jpg"),
+    mosaic: import("../images/paintings/Seashells.jpg"),
+    lightbox: import("../images/paintingsPlus/Seashells.jpg"),
     caption: "Still Life in the Sand",
     page: "/gestures/still-life-in-the-sand",
     nickname: "Seashells",
@@ -365,11 +365,11 @@ const Works = [
     price: "$500",
     sold: "5/14/22 to Ryan Synk",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    mosaic: require("../images/paintings/Sailing.jpg"),
-    lightbox: require("../images/paintingsPlus/Sailing.jpg"),
+    mosaic: import("../images/paintings/Sailing.jpg"),
+    lightbox: import("../images/paintingsPlus/Sailing.jpg"),
     caption: "We'll Be Waiting by the Lighthouse",
     page: "/gestures/well-be-waiting-by-the-lighthouse",
     nickname: "Sailing",
@@ -378,11 +378,11 @@ const Works = [
     price: "$550",
     sold: "6/11/22 RiNo Showcase",
     width: 2400,
-    height: 1800
+    height: 1800,
   },
   {
-    mosaic: require("../images/paintings/Band.jpg"),
-    lightbox: require("../images/paintingsPlus/Band.jpg"),
+    mosaic: import("../images/paintings/Band.jpg"),
+    lightbox: import("../images/paintingsPlus/Band.jpg"),
     caption: "The Beach People",
     page: "/gestures/the-beach-people",
     nickname: "Band",
@@ -390,11 +390,11 @@ const Works = [
     size: "24x36",
     price: "$950",
     width: 1600,
-    height: 2400
+    height: 2400,
   },
   {
-    mosaic: require("../images/paintings/Boardwalk.jpg"),
-    lightbox: require("../images/paintingsPlus/Boardwalk.jpg"),
+    mosaic: import("../images/paintings/Boardwalk.jpg"),
+    lightbox: import("../images/paintingsPlus/Boardwalk.jpg"),
     caption: "Hustle and Bustle",
     page: "/gestures/hustle-and-bustle",
     nickname: "Boardwalk",
@@ -402,11 +402,11 @@ const Works = [
     size: "36x24",
     price: "$950",
     width: 2400,
-    height: 1600
+    height: 1600,
   },
   {
-    mosaic: require("../images/paintings/Beach.jpg"),
-    lightbox: require("../images/paintingsPlus/Beach.jpg"),
+    mosaic: import("../images/paintings/Beach.jpg"),
+    lightbox: import("../images/paintingsPlus/Beach.jpg"),
     caption: "Learning to Surf",
     page: "/gestures/learning-to-surf",
     nickname: "Beach",
@@ -414,12 +414,12 @@ const Works = [
     size: "36x24",
     price: "$950",
     width: 2400,
-    height: 1600
+    height: 1600,
   },
 
   {
-    mosaic: require("../images/examples/ClementinePark.jpg"),
-    lightbox: require("../images/examples/ClementinePark.jpg"),
+    mosaic: import("../images/examples/ClementinePark.jpg"),
+    lightbox: import("../images/examples/ClementinePark.jpg"),
     caption: "Clementine Park",
     page: "/commissions/",
     nickname: "Commission1",
@@ -429,11 +429,11 @@ const Works = [
     portfolio: 205,
     noprints: true,
     width: 716,
-    height: 1081
+    height: 1081,
   },
   {
-    mosaic: require("../images/murals/Mural-Dateline.jpg"),
-    lightbox: require("../images/murals/Mural-Dateline.jpg"),
+    mosaic: import("../images/murals/Mural-Dateline.jpg"),
+    lightbox: import("../images/murals/Mural-Dateline.jpg"),
     caption: "Mural outside Dateline Gallery",
     page: "/murals/",
     nickname: "MuralDateline",
@@ -444,11 +444,11 @@ const Works = [
     portfolio: 101,
     noprints: true,
     width: 3673,
-    height: 2755
+    height: 2755,
   },
   {
-    mosaic: require("../images/murals/Mural-ILA.jpg"),
-    lightbox: require("../images/murals/Mural-ILA.jpg"),
+    mosaic: import("../images/murals/Mural-ILA.jpg"),
+    lightbox: import("../images/murals/Mural-ILA.jpg"),
     caption: "Mural inside ILA Gallery",
     page: "/murals/",
     nickname: "MuralILA",
@@ -459,8 +459,8 @@ const Works = [
     portfolio: 102,
     noprints: true,
     width: 2821,
-    height: 2839
-  }
+    height: 2839,
+  },
 ];
 
 export default Works;
