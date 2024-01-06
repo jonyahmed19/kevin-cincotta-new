@@ -5,6 +5,20 @@
     <link rel="shortcut icon" type="image/svg+xml" href="/public/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1NDR Works by Kevin Cincotta</title>
+    <link rel="preload" as="font" href="/public/fonts/AutoMission.woff" type="font/woff" crossorigin="anonymous" />
+    <style>
+      @font-face {
+        font-family: "auto-mission-regular";
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        /* Read next point */
+        unicode-range: U+000-5FF;
+        /* Download only latin glyphs */
+        src: local("auto-mission-regular"),
+        url("/fonts/AutoMission.woff") format("woff");
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
