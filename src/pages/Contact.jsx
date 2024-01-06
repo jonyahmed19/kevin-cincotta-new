@@ -1,10 +1,10 @@
-import React from "react";
-import Page from "../components/Page.jsx";
+// import React from "react";
+// import Page from "../components/Page.jsx";
 import "../styles.css";
 import ContactInfo from "../components/ContactInfo.jsx";
 import H1 from "../components/H1.jsx";
-const Contact = (props) => (
-  <Page {...props}>
+const Contact = () => (
+  <div>
     <div>
       <H1>Contact Me</H1>
       <p className="contact">
@@ -16,7 +16,7 @@ const Contact = (props) => (
     <footer className="main">
       <ContactInfo />
     </footer>
-  </Page>
+  </div>
 );
 
 export default Contact;

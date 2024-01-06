@@ -5,7 +5,7 @@ import { makePretty } from "../../../../data/WorkFunctions.js";
 
 const PortfolioImage = ({
   photo: { caption, size, sizeText },
-  imageProps: { src, alt, onClick, style, ...restImageProps }
+  imageProps: { src, alt, onClick, style, ...restImageProps },
 }) => (
   <ImageContainer onClick={onClick}>
     <Image
@@ -15,7 +15,11 @@ const PortfolioImage = ({
       {...restImageProps}
     />
     <Caption>{caption}</Caption>
-    <Info><Size>{sizeText ? sizeText : `${makePretty(size)} acrylic on wood panel`}</Size></Info>
+    <Info>
+      <Size>
+        {sizeText ? sizeText : `${makePretty(size)} acrylic on wood panel`}
+      </Size>
+    </Info>
   </ImageContainer>
 );
 
@@ -28,14 +32,14 @@ PortfolioImage.propTypes = {
     sizeText: PropTypes.string,
     height: PropTypes.number.isRequired,
     width: PropTypes.number.isRequired,
-    src: PropTypes.string.isRequired
+    src: PropTypes.string.isRequired,
   }).isRequired,
   imageProps: PropTypes.shape({
     src: PropTypes.string.isRequired,
     alt: PropTypes.string,
     onClick: PropTypes.func.isRequired,
-    style: PropTypes.shape({})
-  })
+    style: PropTypes.shape({}),
+  }),
 };
 
 export default PortfolioImage;
@@ -49,7 +53,7 @@ const Caption = styled.div`
 `;
 
 const Info = styled.div`
-font-family: var(--font-heading);
+  font-family: var(--font-heading);
   text-align: center;
   font-size: clamp(14px, 1rem, 1.25);
   margin-top: 0x;

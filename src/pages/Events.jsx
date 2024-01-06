@@ -9,10 +9,12 @@ import "../styles.css";
 
 // const featuredimage = require("../images/social/ILA-Mural.jpg");
 const Events = (props) => (
-  <Page {...props}>
+  <div>
     <div>
       <H1>Events</H1>
-      <p>No public 1NDR events at the moment, but lots coming soon. Stay tuned!</p>
+      <p>
+        No public 1NDR events at the moment, but lots coming soon. Stay tuned!
+      </p>
       {/* <div className="event">
         <div className="event-featured">
           <div>
@@ -44,7 +46,7 @@ const Events = (props) => (
     </div>
     <h1>Past Events</h1>
     <EventImages />
-  </Page>
+  </div>
 );
 
 export default Events;

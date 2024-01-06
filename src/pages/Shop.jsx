@@ -1,5 +1,4 @@
-import React from "react";
-import { Link, navigate } from "@reach/router";
+import { Link, useNavigate } from "react-router-dom";
 import Page from "../components/Page.jsx";
 import "../styles.css";
 import ContactInfo from "../components/ContactInfo.jsx";
@@ -25,13 +24,15 @@ import H1 from "../components/H1.jsx";
 //   );
 // };
 
-const Shop = (props) => (
-  <Page {...props}>
+const Shop = () => {
+  const navigate = useNavigate();
+  return (
     <div className="shop">
       <H1>Shop</H1>
       <p>
-        Works are available as original paintings and also as giclée prints or canvas-wrap prints in multiple
-        sizes. Prints start at $30 and paintings start at $250.
+        Works are available as original paintings and also as giclée prints or
+        canvas-wrap prints in multiple sizes. Prints start at $30 and paintings
+        start at $250.
       </p>
 
       {/* <h2>Original Works</h2> */}
@@ -89,14 +90,15 @@ const Shop = (props) => (
         <div>$161</div>
       </div> */}
       <footer>
-      <h2 style={{textAlign: "center"}}>Something else?</h2>
-      <p>
-        I am available for <Link to="/commissions">commissioned works</Link> and other creative projects.
-      </p>
+        <h2 style={{ textAlign: "center" }}>Something else?</h2>
+        <p>
+          I am available for <Link to="/commissions">commissioned works</Link>{" "}
+          and other creative projects.
+        </p>
       </footer>
       <ContactInfo />
     </div>
-  </Page>
-);
+  );
+};
 
 export default Shop;

@@ -1,31 +1,45 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const ExampleImages = () => {
-    const flexImages = [
+  const [flexImages, setFlexImages] = useState([]);
+
+  useEffect(() => {
+    const loadImages = async () => {
+      const images = [
         {
-            src: require("../images/examples/SeaExplorers.jpg")
+          src: (await import("../images/examples/SeaExplorers.jpg")).default,
         },
         {
-            src: require("../images/examples/BeachPeople.jpg")
+          src: (await import("../images/examples/BeachPeople.jpg")).default,
         },
         {
-            src: require("../images/examples/MonkShirt.jpg")
+          src: (await import("../images/examples/MonkShirt.jpg")).default,
         },
         {
-            src: require("../images/examples/BurdensOfLeisure.jpg")
+          src: (await import("../images/examples/BurdensOfLeisure.jpg"))
+            .default,
         },
         {
-            src: require("../images/examples/FuzzHeads.jpg")
+          src: (await import("../images/examples/FuzzHeads.jpg")).default,
         },
         {
-            src: require("../images/examples/OrpheusPoster.jpg")
-        }
-    ];
-    return (
-        <div className="flexImages">
-            {flexImages.map((image, index) => <img key={index} src={image.src} alt="" title="" />)}
-        </div>
-    );
+          src: (await import("../images/examples/OrpheusPoster.jpg")).default,
+        },
+      ];
+
+      setFlexImages(images);
+    };
+
+    loadImages();
+  }, []);
+
+  return (
+    <div className="flexImages">
+      {flexImages.map((image, index) => (
+        <img key={index} src={image.src} alt="" title="" />
+      ))}
+    </div>
+  );
 };
 
 export default ExampleImages;
