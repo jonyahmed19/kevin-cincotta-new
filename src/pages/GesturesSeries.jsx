@@ -1,12 +1,13 @@
-import { useNavigate } from "react-router-dom";
 import Series from "../components/Series.jsx";
 import { gesturesImages } from "../ImageGallery/images";
 
+
+
 const header = () => (
-  <div className="series">
+  <div className="series" style={{background: 'white!important'}}>
     <p>
       Gestures of Love is a series of 20 paintings that I created during a
-      life-changing summer road trip along the Pacific Coast. I'd recently
+      life-changing summer road trip along the Pacific Coast. {'I\'d'} recently
       graduated college with a music degree at the peak of Covid. With planned
       summer tours cancelled, I packed my art supplies and sleeping bag in the
       back of my car and spent the summer painting.
@@ -18,7 +19,7 @@ const header = () => (
       the confidence to pursue art full-time.
     </p>
     <p>
-      As you explore this series, I hope you'll find inspiration and joy in my
+      As you explore this series, I hope {'you\'ll'} find inspiration and joy in my
       paintings. Thank you for joining me on this journey, and I look forward to
       sharing more of my art with you in the future.
     </p>
@@ -26,16 +27,15 @@ const header = () => (
 );
 
 function GesturesSeries(props) {
-  const navigate = useNavigate(); // Call useNavigate to get the navigate function
 
-  const handleClick = (event, photo, index) => {
+  const handleClick = () => {
 
-      console.log('index', index)
+
   }
 
     // const handleClick = ()=> console.log('hello')
 
-    console.log(props);
+
 
   return (
     <Series
