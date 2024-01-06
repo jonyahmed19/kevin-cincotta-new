@@ -1,24 +1,22 @@
-import React from "react";
-
 const ExampleImages = () => {
     const flexImages = [
         {
-            src: require("../images/social/ILA.jpg")
+            src: import("../images/social/ILA.jpg")
         },
         {
-            src: require("../images/social/RiNo.jpg")
+            src: import("../images/social/RiNo.jpg")
         },
         {
-            src: require("../images/social/P+B.jpg")
+            src: import("../images/social/P+B.jpg")
         },
         {
-            src: require("../images/social/Dairy-Block.jpg")
+            src: import("../images/social/Dairy-Block.jpg")
         },
         {
-            src: require("../images/social/P+B_Denver.jpg")
+            src: import("../images/social/P+B_Denver.jpg")
         },
         {
-            src: require("../images/social/West+Main.jpg")
+            src: import("../images/social/West+Main.jpg")
         }
     ];
     return (

@@ -6,6 +6,7 @@ import "./styles.css";
 import Layout from "./components/Layout.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
+import Events from "./pages/Events.jsx";
 // import routes from "./routes/routes.jsx";
 
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <About />,
+            },
+            {
+                path: "/events",
+                element: <Events />,
             },
         ],
     },
