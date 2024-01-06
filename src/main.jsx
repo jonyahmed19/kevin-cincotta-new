@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import App from "./App.jsx";
-import Home from "./Home.jsx";
+import "./styles.css";
 import Layout from "./components/Layout.jsx";
-import About from "./About.jsx";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
 // import routes from "./routes/routes.jsx";
 
 
