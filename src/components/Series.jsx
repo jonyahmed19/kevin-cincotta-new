@@ -4,13 +4,12 @@ import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { ThemeProvider } from "styled-components";
 import { AppContainer, GlobalStyles } from "../styles";
-import "../styles.css";
 import Gallery from "react-photo-album";
 import GridImage from "../ImageGallery/components/ImageMosaic/components/GridImage.jsx";
 
 const GalleryContainer = styled.div`
   overflow-y: auto;
-  height: 100%;
+  height: 100%!important;
   max-height: calc(100% - 4em);
   padding: 0;
 `;

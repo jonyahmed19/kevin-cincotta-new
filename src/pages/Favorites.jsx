@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import Series from "../components/Series.jsx";
 import Works from "../data/Works";
@@ -58,13 +57,13 @@ function Favorites(props) {
         header={() => (
           <div className="series">
             <p>
-              Whenever you're looking at a painting on this site, you can
+              Whenever {'you\'re'} looking at a painting on this site, you can
               favorite it by clicking <i className="fa-thin fa-heart" /> or
               unfavorite by clicking <i className="fa-solid fa-heart" />. All
               your favorites will show on this page.
             </p>
             <p>
-              Looks like you don't have any favorites yet. Browse any of these
+              Looks like you {'don\'t '} have any favorites yet. Browse any of these
               lists to select some:
             </p>
             <Links />
