@@ -1,13 +1,13 @@
-import React from 'react';
-import Navbar from "./Navbar.jsx";
 import {Outlet} from "react-router-dom";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 
 const Layout = () => {
     return (
         <>
-            <Navbar/>
+            <Header/>
             <Outlet/>
-            Footer
+            <Footer/>
         </>
     );
 };
