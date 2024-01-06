@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-import { Link } from "@reach/router";
 import Page from "../components/Page.jsx";
 import CheckoutForm from "../components/CheckoutForm.jsx";
 import Error from "../components/Error.jsx";
@@ -14,6 +12,8 @@ import {
 import StyledSlider from "../components/StyledSlider.jsx";
 import H1 from "../components/H1.jsx";
 import Heart from "../components/Heart.jsx";
+import {Link} from "react-router-dom";
+import {useState} from "react";
 
 function clean(price) {
   return Number(price.replace("$", "").replace(",", ""));
@@ -22,7 +22,7 @@ function clean(price) {
 function Checkout(props) {
   const painting = Find(props.nickname);
   const [width, setWidth] = useState(0);
-  const isCanvas = !!Number(props.format);
+  const isCanvas = !!Number(props?.format);
   const canvas = isCanvas
     ? CanvasPrint(painting, width ? width : props.format)
     : null;

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { navigate } from "@reach/router";
+import  { useState } from "react";
 import { GetGsm, GetSeries } from "../data/WorkFunctions.js";
 import WallImages from "./WallImages.jsx";
-require("dotenv").config();
+import {useNavigate} from "react-router-dom";
+// import("dotenv").config();
 
 //import emailjs from '@emailjs/browser';
 //import { navigate } from "@reach/router";
@@ -115,6 +115,8 @@ export default function CheckoutForm({
   //             navigate("/error");
   //         });
   // };
+
+  const navigate = useNavigate();
 
   const checkout = async (e) => {
     e.preventDefault();

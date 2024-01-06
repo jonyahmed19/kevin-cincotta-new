@@ -7,7 +7,6 @@ import { AppContainer, GlobalStyles } from "../styles";
 import "../styles.css";
 import Gallery from "react-photo-album";
 import GridImage from "../ImageGallery/components/ImageMosaic/components/GridImage.jsx";
-import Page from "./Page.jsx";
 
 const GalleryContainer = styled.div`
   overflow-y: auto;
@@ -71,9 +70,9 @@ function Series(props) {
           {...props}
           images={props.images}
           handleClick={(event, photo, index) => {
-            navigate(props.images[index].page);
+            navigate(props?.images[index]?.page);
           }}
-          series={props.series}
+          series={props?.series}
         />
       </AppContainer>
     </ThemeProvider>
